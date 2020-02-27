@@ -3,7 +3,6 @@ module.exports = {
     logo: "/logo.svg",
     displayAllHeaders: true,
     sidebar: [
-      "/",
       ["/java/", "Java"],
       ["/android/", "Android"],
       ["/UML/", "UML"],

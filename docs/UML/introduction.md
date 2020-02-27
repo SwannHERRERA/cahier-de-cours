@@ -4,22 +4,35 @@ sidebar: auto
 
 # UML (Unified Modeling Language)
 
-```mermaid
-graph LR
-id1{This is the text in the box}
-```
+<mermaid>
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+</mermaid>
 
 ### Merise (entité association)
 
-| Données | Traitements |
-| MCD | MCT(action) |
-| MLD | MOT(qui réalise les actions) |
-| Creation bdd | dev |
+|   Données    |         Traitements          |
+| :----------: | :--------------------------: |
+|     MCD      |         MCT(action)          |
+|     MLD      | MOT(qui réalise les actions) |
+| Creation bdd |             dev              |
 
 ## UML vue général
 
-13 diagrames a utiliser au choix
-c'est une demarche itérative (non structuré)
+13 diagrames a utiliser au choix<br>
+c'est une demarche itérative (non structuré)<br>
 Objectif : avoir n diagramme cohérents
 
 ### Démarrer la définition de besoins
@@ -34,11 +47,11 @@ Remarque :
 - les acteurs pricipaux ce mettent a gauche
 - On met les acteurs au singulier
 
-2. Si le sujet est vaste et complexe
-   -> Diagramme de packages
+2.  Si le sujet est vaste et complexe
+    -> Diagramme de packages
 
-3.
+3.  Diagramme de CV
 
-- Si le sujet est simple -> alors on fait un diagramme de CV
-- Si le sujet est complexe -> alors on fait un diagramme de CV par package
-  Question qui doit pouvoir faire quoi
+    - Si le sujet est simple -> alors on fait un diagramme de CV
+    - Si le sujet est complexe -> alors on fait un diagramme de CV par package
+      Question qui doit pouvoir faire quoi
