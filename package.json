@@ -1,7 +1,7 @@
 {
-  "name": "bagheraDocs",
+  "name": "Cahier de cours",
   "version": "1.0.0",
-  "description": "Une documentation pour les sites Bagherawines",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
