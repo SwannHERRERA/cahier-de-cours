@@ -5,6 +5,7 @@ module.exports = {
     sidebar: [
       ["/java/", "Java"],
       ["/android/", "Android"],
+      ["/infographie/", "Infographie"],
       ["/UML/", "UML"],
       ["/API/", "API"]
     ]
