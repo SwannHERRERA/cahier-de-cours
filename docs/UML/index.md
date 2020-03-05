@@ -1,4 +1,4 @@
 # Index
 
 [Introduction](/uml/introduction)
-[Introduction](/uml/cas_utilisation)
+[cas d'utilisation](/uml/cas_utilisation)
