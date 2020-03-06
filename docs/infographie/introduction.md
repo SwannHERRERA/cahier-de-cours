@@ -52,3 +52,13 @@ On peut modifier cette camera avec la fonction gluLookAt
 Une lumière est soit diréctionnel soit ponctuel
 
 elle peut être directionnel sur un point comme sur une droite (elle ne prend pas plus de temps de calcule)
+
+
+# Calcule de normal
+
+On calcule la normal dans le cadre de la lumière
+
+on cherche la droite orthogonal au plan 
+
+## Produit vectoriel
+
