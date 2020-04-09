@@ -7,6 +7,8 @@ Le language est cross plateform car il tourne sur une **JVM** (Java Virtual Mach
 
 ## POO
 
+C'est passé de mode mais c'est toujours au centre de la table et la résistance n'est pas encore bien structuré
+
 ## Exeptions
 
 Java est un language qui fonctionne avec des exeptions:
