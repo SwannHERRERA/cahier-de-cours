@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Présentation
 
 - CROSS plateform

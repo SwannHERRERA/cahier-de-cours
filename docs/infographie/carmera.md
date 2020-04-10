@@ -1,11 +1,15 @@
-# Camera 
+---
+sidebar: auto
+---
+
+# Camera
 
 > Plusieur solution possible (notament une en C++(SOIL))
-
 
 Solution sans SOIL -> caméra centrée
 
 `lookAt`
+
 ```C
 x0 = R*cos(B) * sin(a);
 x0 = R*sin(B);
@@ -25,6 +29,7 @@ alpha = longitude
 beta = latitude
 
 Gestion de la camera peut se faire grace au clavier
+
 - via les touches directionnelles (special key)
 - **+** **-** pour le zoom / dezoom
 

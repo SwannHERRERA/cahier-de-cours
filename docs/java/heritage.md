@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # L'héritage
 
 - Etablir une relation de généralisation/spécialisation

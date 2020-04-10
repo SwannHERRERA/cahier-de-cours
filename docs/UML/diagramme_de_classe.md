@@ -1,18 +1,23 @@
+---
+sidebar: auto
+---
+
 # Diagramme de classe
 
 - Il représente les classes, leur composants et la façon dont elles sont liées entre elle.
 
 - Il y a d'autre diagramme qui servent a compléter le diagramme de classes
-
-<mermaid>
-  classDiagram
-  Diagramme de classes <|-- Diagramme des objects
-  Diagramme de classes <|-- Diagramme d'êtat
-  Diagramme de classes <|-- Diagramme de cas d'utilisation
-  Diagramme de classes <|-- Diagramme d'activité
-  Diagramme de classes <|-- Diagramme de séquence
-  Diagramme de classes <|-- Diagramme de collaboration
-</mermaid>
+  <div style="max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch;">
+    <mermaid>
+      classDiagram
+      Diagramme de classes <|-- Diagramme des objects
+      Diagramme de classes <|-- Diagramme etat
+      Diagramme de classes <|-- Diagramme de cas utilisation
+      Diagramme de classes <|-- Diagramme activité
+      Diagramme de classes <|-- Diagramme de séquence
+      Diagramme de classes <|-- Diagramme de collaboration
+    </mermaid>
+  </div>
 
 ## Class
 
@@ -23,8 +28,16 @@
 
 ## Les attributs
 
--- mettre le diagramme
-
+<div style="max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch;">
+    <mermaid>
+      classDiagram
+      class BankAccount
+      BankAccount : +String owner
+      BankAccount : +Bigdecimal balance
+      BankAccount : +deposit(amount)
+      BankAccount : +withdrawl(amount)
+    </mermaid>
+</div>
 Les attributs sotn els types d'information stocker dans une classe
 ils ont :
 
@@ -53,18 +66,25 @@ Elle doivent être identifiés au moment de la conception
 
 ## Multiplicités
 
--- mettre le diagramme
+<div style="max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch;">
+    <mermaid>
+    classDiagram
+      Customer "1" --> "*" Ticket
+      Student "1" --> "1..*" Course
+      Galaxy --> "many" Star : Contains
+    </mermaid>
+</div>
 
 > Etablie les relations
 
-|       |           |
-| :---: | :-------: |
-|   1   |     1     |
-| 0..1  |  0 ou 1   |
-| m..n  | de m à n  |
-|  \*   | Plusieur  |
-| 0..\* | de 0 à \* |
-| 1..\* | de 1 à \* |
+| Relation | Correspondance |
+| :------: | :------------: |
+|    1     |       1        |
+|   0..1   |     0 ou 1     |
+|   m..n   |    de m à n    |
+|    \*    |    Plusieur    |
+|  0..\*   |   de 0 à \*    |
+|  1..\*   |   de 1 à \*    |
 
 > C'est l'équivalent des cardinalités en MCD
 > Le sens de lecture est cependant inversé
@@ -73,8 +93,11 @@ Elle doivent être identifiés au moment de la conception
 
 On peut précisée le sens de l'assciation
 
--- mettre le diagramme
+<div style="max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch;">
+    <mermaid>
+      classDiagram
+      Galaxy "1" --> "1..*" Star : Contains >
+    </mermaid>
+</div>
 
-On peut précisé un Rôle
-
--- mettre le diagramme
+> On peut précisé un Rôle

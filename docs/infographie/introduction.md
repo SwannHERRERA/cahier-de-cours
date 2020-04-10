@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Introduction a OpenGL
 
 Opengl est un moteur de rendu.
@@ -7,14 +11,15 @@ Opengl est un moteur de rendu.
 1. C'est chiant sous windows go linux fast
 
 faire des sudo apt install
-pour compiler `g++ main.cpp  -lglut -lGLU -lGL`
+pour compiler `g++ main.cpp -lglut -lGLU -lGL`
 
 - L'utilisation de g++ parce que c'est du c++
 - Les options servent a utiliser glut
 
-## Création d'un quadriatère 
+## Création d'un quadriatère
 
 Pour crée un quadriatère il faut 4 points, On aura aussi un problème, les traits qui définissent l'objet se font dans un certain ordre
+
 ```C
 glBegin(GL_QUADS);
     glVertex3f(-0.7,-0.5,0.0);
@@ -22,7 +27,7 @@ glBegin(GL_QUADS);
     glVertex3f(0.4,0.5,0.0);
     glVertex3f(-0.4,0.5,0.0);
 glEnd();
-``` 
+```
 
 On va essayer d'appliquer une rotation et une Transation a notre objet.
 
@@ -53,12 +58,10 @@ Une lumière est soit diréctionnel soit ponctuel
 
 elle peut être directionnel sur un point comme sur une droite (elle ne prend pas plus de temps de calcule)
 
-
 # Calcule de normal
 
 On calcule la normal dans le cadre de la lumière
 
-on cherche la droite orthogonal au plan 
+on cherche la droite orthogonal au plan
 
 ## Produit vectoriel
-

@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Description d'un cas d'utilisation
 
 ## Information généréales (identification) du cas d'utilisation :
