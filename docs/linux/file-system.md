@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Systèmes de fichiers
 
 Un système de fichier (File system: FS) définit la façon dont seront stockées les informations

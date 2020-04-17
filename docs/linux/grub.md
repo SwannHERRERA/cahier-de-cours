@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Changer le mot de passe du root
 
 > Avec la touche **e** lors du démarrage on accède a GRUB
