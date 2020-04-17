@@ -7,8 +7,9 @@ module.exports = {
       ["/android/", "Android"],
       ["/infographie/", "Infographie"],
       ["/UML/", "UML"],
-      ["/API/", "API"]
-    ]
+      ["/linux/", "Linux"],
+      ["/API/", "API"],
+    ],
   },
   title: "Cahier de cours",
   plugins: [
@@ -16,16 +17,16 @@ module.exports = {
       "@vuepress/pwa",
       {
         serviceWorker: true,
-        updatePopup: true
-      }
+        updatePopup: true,
+      },
     ],
     [
       "@vuepress/active-header-links",
       {
         sidebarLinkSelector: ".sidebar-link",
-        headerAnchorSelector: ".header-anchor"
-      }
+        headerAnchorSelector: ".header-anchor",
+      },
     ],
-    ["@vuepress/back-to-top"]
-  ]
+    ["@vuepress/back-to-top"],
+  ],
 };
