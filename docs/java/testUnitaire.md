@@ -11,6 +11,15 @@ Pour java **Junit** est souvent utilisé
 
 Le BDD a pour but d'identifier les comportements
 
+Le but est d'écrire des sénarios de test compréhensibles par des moldus.
+
+Il y a 2 interêt majeur a cette pratique :
+
+- Documenter les fonctionnalités a développer d'une part
+- L'automatisation des tests
+
+Ce principe d'écriture des tests d'acceptation est une pratique courrante dans le fonctionnement des **user stories**
+
 Le BDD fonctionne en 4 étapes :
 
 - Given
