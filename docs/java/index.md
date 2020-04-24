@@ -1,9 +1,9 @@
 # JAVA
 
-[présentation](/java/presentation)
+[Présentation](/java/presentation)
 
-[héritage](/java/heritage)
+[Héritage](/java/heritage)
 
-[interfaces](/java/interfaces)
+[Interfaces](/java/interfaces)
 
-[héritage](/java/testUnitaire)
+[Tests unitaire](/java/testUnitaire)
