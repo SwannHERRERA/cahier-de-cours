@@ -304,15 +304,15 @@ Exemple:
 @Test
 public void test5() {
   given_an_indicator_between("[------]")
-  .when_I_set_the_value_to(   "[--X---]")
+  .when_I_set_the_value_to(  "[--X---]")
   .then_the_value_should_be( "[--X---]");
 
   given_an_indicator_between("[------]")
-  .when_I_set_the_value_to(   "[------]X")
+  .when_I_set_the_value_to(  "[------]X")
   .then_the_value_should_be( "[-----X]");
 
   given_an_indicator_between("[------]")
-  .when_I_set_the_value_to(   "X[------]")
+  .when_I_set_the_value_to(  "X[------]")
   .then_the_value_should_be( "[X-----]");
 }
 ```
