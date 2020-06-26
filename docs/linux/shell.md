@@ -76,6 +76,12 @@ fi
 Attention il doit forcément y avoir un espace avant et après la condition type `[ "condition" ]`
 Ne pas oublié le then même après le elif
 
+#### Conbinaison de test
+
+- -o : OU logique
+- -a : ET logique
+- ! : NON logique
+
 ##### Comparaison
 
 Pour tester certaine valeur on doit utiliser des options
@@ -98,6 +104,16 @@ then
     echo "$NUM1 is greater than $NUM2"
 fi
 ```
+
+###### String conditions
+
+test –z "$variable" : vrai si la chaine contenue dans variableest vide
+
+test –n "$variable" : vrai si la chaine n’est pas vide
+
+test "$variable" =valeur: vrai si variable est égale à valeur.
+
+test "$variable" != valeur: vrai variableest différent de valeur.
 
 ##### File conditons
 
